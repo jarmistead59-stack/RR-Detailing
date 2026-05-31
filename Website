@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RR Detailing | Professional Mobile Detailing</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+line-height:1.6;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url("audi.jpg");
+background-size:cover;
+background-position:center;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content{
+max-width:800px;
+}
+
+.logo{
+width:300px;
+max-width:90%;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+margin-bottom:25px;
+color:#ddd;
+}
+
+.btn{
+display:inline-block;
+background:#2da8ff;
+color:white;
+padding:14px 28px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+}
+
+section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:2rem;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#171717;
+padding:25px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(255,255,255,.05);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:12px;
+}
+
+.review{
+background:#171717;
+padding:20px;
+border-radius:12px;
+margin-bottom:15px;
+}
+
+.review strong{
+display:block;
+margin-bottom:8px;
+color:#2da8ff;
+}
+
+.cta{
+text-align:center;
+background:#111;
+padding:80px 20px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:black;
+color:#888;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="hero-content">
+
+<img src="logo.jpg" alt="RR Detailing Logo" class="logo">
+
+<h1>RR Detailing</h1>
+
+<p>
+Professional Mobile Detailing Services.
+Interior, Exterior, Deep Cleaning & Showroom-Level Results.
+</p>
+
+<a href="tel:+18014030874" class="btn">
+Call (801) 403-0874
+</a>
+
+</div>
+</section>
+
+<section>
+
+<h2>Why Choose RR Detailing?</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Interior Detailing</h3>
+<p>Deep cleaning, vacuuming, stain removal, and restoring your interior to like-new condition.</p>
+</div>
+
+<div class="card">
+<h3>Exterior Detailing</h3>
+<p>Hand washing, wheel cleaning, trim treatment, and paint enhancement.</p>
+</div>
+
+<div class="card">
+<h3>Mobile Service</h3>
+<p>We come to you so your vehicle gets detailed without disrupting your day.</p>
+</div>
+
+<div class="card">
+<h3>Attention to Detail</h3>
+<p>Every vehicle receives professional care and meticulous attention.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Recent Work</h2>
+
+<div class="gallery">
+
+<img src="audi.jpg" alt="RR Detailing Audi">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>What Customers Are Saying</h2>
+
+<div class="review">
+<strong>Alec Art</strong>
+Very respectful and did a great job on my Acura!
+</div>
+
+<div class="review">
+<strong>Brian Emery</strong>
+My car looks like it did coming off the showroom! I'll definitely be using RR Detailing again.
+</div>
+
+<div class="review">
+<strong>Andrea Robertson</strong>
+Professional, hardworking, and went above and beyond to make sure every detail was perfect.
+</div>
+
+<div class="review">
+<strong>Madison</strong>
+Super professional and did an amazing job. My car has never been this spotless.
+</div>
+
+<div class="review">
+<strong>Kenny Robertson</strong>
+They killed it! I haven't seen my truck this clean since the day I bought it.
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Ready To Make Your Vehicle Shine?</h2>
+
+<p style="margin:20px 0;">
+Call today to schedule your detail.
+</p>
+
+<a href="tel:+18014030874" class="btn">
+Book Now
+</a>
+
+</section>
+
+<footer>
+© 2026 RR Detailing • Mobile Detailing Services
+</footer>
+
+</body>
+</html>
